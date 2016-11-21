@@ -197,9 +197,9 @@ REGISTRATION_AUTO_LOGIN = True
 # Email settings
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.163.com'
+EMAIL_HOST = 'smtp.mxhichina.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = '#####'  # add your own accounts for local test
-EMAIL_HOST_PASSWORD = '######'
-EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'rasp'  # add your own accounts for local test
+EMAIL_HOST_PASSWORD = 'XWlte123'
+EMAIL_USE_TLS = False
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
